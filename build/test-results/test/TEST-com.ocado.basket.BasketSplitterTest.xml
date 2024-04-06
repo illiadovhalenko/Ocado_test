@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ocado.basket.BasketSplitterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-04-06T22:41:25" hostname="MacBook-Pro-Mac.local" time="0.032">
+  <properties/>
+  <testcase name="nullPath()" classname="com.ocado.basket.BasketSplitterTest" time="0.007"/>
+  <testcase name="emptyPath()" classname="com.ocado.basket.BasketSplitterTest" time="0.002"/>
+  <testcase name="wrongPath()" classname="com.ocado.basket.BasketSplitterTest" time="0.001"/>
+  <testcase name="basket1()" classname="com.ocado.basket.BasketSplitterTest" time="0.017"/>
+  <testcase name="basket2()" classname="com.ocado.basket.BasketSplitterTest" time="0.003"/>
+  <system-out><![CDATA[java.lang.NullPointerException
+java.io.IOException: Is a directory
+java.nio.file.NoSuchFileException: /Users/mac/PwJava/Ocado/conffig.json
+{Express Collection=[Fond - Chocolate], Courier=[Cocoa Butter, Tart - Raisin And Pecan, Table Cloth 54x72 White, Flower - Daisies, Cookies - Englishbay Wht]}
+{Courier=[Cake - Miini Cheesecake Cherry], Same day delivery=[Sauce - Mint, Numi - Assorted Teas, Garlic - Peeled], Express Collection=[Fond - Chocolate, Chocolate - Unsweetened, Nut - Almond, Blanched, Whole, Haggis, Mushroom - Porcini Frozen, Longan, Bag Clear 10 Lb, Nantucket - Pomegranate Pear, Puree - Strawberry, Apples - Spartan, Cabbage - Nappa, Bagel - Whole White Sesame, Tea - Apple Green Tea]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
